@@ -30,6 +30,17 @@ A partir de là, tous les terminaux dont nous parlerons devront être ouvert ave
 
 ### Installer les dépendances
 
+#### Installer Nodejs
+
+Pour installer nodejs:
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt-get install curl
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
 #### Installer les dépendances du Smart contract
 
 Mettez-vous dans le dossier `voting-sessions` et tapez:
