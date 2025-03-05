@@ -83,7 +83,7 @@ npx hardhat node
 
 ### 3. Deployer le contrat
 
-Dans un terminal :
+Encore dans le dossier `voting-sessions`, ouvrir un second terminal et entrez la commande suivante:
 ```bash
 npx hardhat ignition deploy --network localhost ignition/modules/voting.js
 ```
